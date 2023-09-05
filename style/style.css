@@ -48,19 +48,6 @@ body {
 	display: none;
 }
 
-.on-flex {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-	
-	padding: 11px 15px;
-
-	width: auto;
-
-	opacity: 100%;
-	transition: opacity 0.5s;
-}
-
 .green {
 	background-color: #6ABF4B;
 	opacity: 70%;
@@ -90,6 +77,19 @@ body {
 
 .blue:active {
 	background-color: #1d458f;
+}
+
+.on-flex {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	
+	padding: 11px 15px;
+
+	width: auto;
+
+	opacity: 100%;
+	transition: opacity 0.5s;
 }
 
 /*---all btns---*/
