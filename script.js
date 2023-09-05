@@ -2,7 +2,7 @@ const btns = document.querySelectorAll('.element');
 const mainImg = document.querySelector('.img-bg');
 
 
-document.onclick = function (e) { 
+document.addEventListener("click",function (e) { 
 
     if (e.target.classList[0] === 'element') {
         let item = e.target;
@@ -33,3 +33,4 @@ document.onclick = function (e) {
 
     }
 }
+) 
