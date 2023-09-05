@@ -40,13 +40,32 @@ body {
 .green {
 	background-color: #6ABF4B;
 	opacity: 70%;
-	transition: opacity 0.5s;
+	
+	transition: opacity, background-color 0.5s;
+}
+
+.green:hover {
+	background-color: #4d9235;
+	transition: background-color 0.5s;
+}
+
+.green:active {
+	background-color: #2f5921;
 }
 
 .blue {
 	background-color: #3877EE;
 	opacity: 70%;
 	transition: opacity 0.5s;
+}
+
+.blue:hover {
+	background-color: #295fc2;
+	transition: opacity, background-color 0.5s;
+}
+
+.blue:active {
+	background-color: #1d458f;
 }
 
 .build-first {
