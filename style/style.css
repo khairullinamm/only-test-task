@@ -1,5 +1,9 @@
+* {
+	cursor: none;
+}
 html {
 	height: 1080px;
+	
 }
 
 body {
@@ -10,20 +14,7 @@ body {
 	overflow-y:hidden;
 
 }
-/*
-body:before {
-	content: '';
-	display: block;
-    width: 100vw;
-    height: 1080px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background:rgba(0, 0, 0, .4) 0 0/100% auto no-repeat;
-}
-*/
+
 .container {
 	width: 100vw;
 	height: 100vh;
@@ -49,11 +40,13 @@ body:before {
 .green {
 	background-color: #6ABF4B;
 	opacity: 70%;
+	transition: opacity 0.5s;
 }
 
 .blue {
 	background-color: #3877EE;
 	opacity: 70%;
+	transition: opacity 0.5s;
 }
 
 .build-first {
@@ -134,6 +127,14 @@ body:before {
 	padding: 11px 15px;
 
 	width: auto;
+
+	opacity: 100%;
+	transition: opacity 0.5s;
 }
 
-
+.cursor {
+	pointer-events: none;
+    position: absolute;
+    transition: 0, 1s;
+    transform: translate(-50%, -50%);
+}
